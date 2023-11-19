@@ -20,4 +20,14 @@ git https://github.com/Roiqk7/isEven
 
 # How to use? <a name="HowToUse"></a>
 
+For example usage refer to [example.cpp](src/example.cpp).
+
+## How to use example.cpp
+
+1. Follow steps in [Installation](#Installation) (if you haven't done so already)
+2. Open terminal
+3. Go into the repo directory
+4. Run `g++ -std=c++17 -o example example.cpp isEven.cpp isOdd.cpp && ./example`
+5. Find out if your favourite number is even od odd!
+
 # Description <a name="Description"></a>
