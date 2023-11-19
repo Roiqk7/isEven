@@ -5,7 +5,7 @@ with open("isEven.cpp", "w") as clear_file:
         clear_file.write("")
 
 # Total number of iterations
-totalIterations = 1000
+totalIterations = 100000000
 
 # Interval for updating the progress bar
 updateInterval = totalIterations // 100  # Update every 1% progress
