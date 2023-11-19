@@ -9,14 +9,15 @@ Have you ever wondered if a number is even or odd? Well those times are over! Wi
 
 # Installation <a name="Installation"></a>
 
+1. Clone this repository (if you haven't done so already)
+```
+git https://github.com/Roiqk7/isEven
+```
+2. Open your terminal
+3. Go into the repo directory
+4. Run `python3 build.py`
+5. Everything is set and done!
+
 # How to use? <a name="HowToUse"></a>
-
-## Initiation
-
-1. Open your terminal
-2. Go into the repo directory
-3. Run `python3 build.py`
-
-## Usage
 
 # Description <a name="Description"></a>
