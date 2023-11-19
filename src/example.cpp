@@ -1,10 +1,12 @@
-#include "isEven.h" // Do not forget to include header file and make sure isEven.h, isEven.cpp and/or isOdd.cpp are in the same directory as your work file.
+#include "isEven.h"
+#include "evenVector.h"
 #include <iostream>
 #include <limits>
 
 int main()
 {
         int favoriteNumber;
+        evenVector vec;
 
         // Ask the user for their favorite number
         std::cout << "Enter your favorite number: ";
@@ -17,18 +19,18 @@ int main()
                 std::cout << "Invalid input. Please enter a valid integer: ";
         }
 
-        // Check if the number is even or odd using the isEven function
-        if (isEven(favoriteNumber)) // Call isEven() as you would a regular function
+        // Check if the number is even or odd using the isEven function and checking value at corresponding index of EvenVector
+        if (isEven(favoriteNumber) && vec[favoriteNumber])
         {
                 std::cout << "Your favorite number " << favoriteNumber << " is even." << std::endl;
         }
-        else if (isOdd(favoriteNumber)) // Call isOdd() as you would a regular function
+        else if (isOdd(favoriteNumber) && !vec[favoriteNumber])
         {
                 std::cout << "Your favorite number " << favoriteNumber << " is odd." << std::endl;
         }
         else
         {
-                std::cout << "You are a wizzard. Your number is not even nor odd..." << std::endl;
+                std::cout << "You are a wizard. Your number is not even nor odd..." << std::endl;
         }
 
         return 0;
