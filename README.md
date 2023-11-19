@@ -1,9 +1,5 @@
 # The Ultimate isEven()!
 
-# TODO
-* Add EvenVector to readmes
-
-
 Have you ever wondered if a number is even or odd? Well, those times are over! With this implementation of `isEven()` you can once and for all determine if a number is even! And it doesn't end there! I also included `isOdd()` so you can be 100% sure when a number is odd!
 
 ## Contents
@@ -50,6 +46,9 @@ This repository is mainly used to determine if number is even or odd using `isEv
 
 # Going over a BILLION... <a name="TheTruth"></a>
 
-Well... it's not really recommended. This is exactly how `totalIterations = 1 Billion` is large. Also, it takes around **10 minutes** to build. I tried rewriting `build.py` in C++, but it didn't improve the performance at all.
+Well... it's not really recommended. Look at the inage bellow to see exactly how `totalIterations = 1 Billion` is large. Also, it takes around **10 minutes** to build. I tried rewriting `build.py` in C++, but it didn't improve the performance at all.
 
 ![Startup](https://github.com/Roiqk7/isEven/blob/main/.github/billionFileSize.png?raw=true)
+
+# TODO
+* Add EvenVector to READMEs
