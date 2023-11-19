@@ -17,7 +17,7 @@ commentBlock = """/*
 \tThis file will be overwritten by build.py
 \tGo into the isEven/src directory and run:
 \n\t\tpython3 build.py\n
-\tThat will build the isEven.cpp. Feel free to use it in all your programs!
+\tThat will build the isEven.cpp. Feel free to use this code in all your programs!
 */"""
 
 # Write the new content to the file
@@ -57,4 +57,4 @@ else:
 
 # Write additional information after the build is finished
 print("\n\nBuild finished in {:.2f} seconds.".format(buildTime))
-print("isEven supports numbers all the way up to {}.".format(totalIterationsStr))
+print("isEven() supports numbers all the way up to {}.".format(totalIterationsStr))
