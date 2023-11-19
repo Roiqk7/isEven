@@ -13,10 +13,10 @@ Have you ever wondered if a number is even or odd? Well those times are over! Wi
 ```
 git https://github.com/Roiqk7/isEven
 ```
-2. Default `isEven.cpp` supports integers from 1 to 600420 (because github doesn't allow for larger files). If thats fine for you, you can stop there. Else if you want more integers, follow this tutorial.
+2. Default `isEven.cpp` supports integers from 1 to 600420 (because github doesn't allow for larger files). If thats fine for you, you can stop there. Else if you want more integers, follow the rest of this tutorial.
 3. Open your terminal
 4. Go into the repo directory
-5. Run `python3 build.py`
+5. Run `python3 build.py`. That will make `isEven.cpp` support integers all the way to 100 million. To learn how to change this ceiling [click here!](#ChangingMaxSupportedValue)
 6. Everything is set and done!
 
 # How to use? <a name="HowToUse"></a>
@@ -30,5 +30,13 @@ For example usage refer to [example.cpp](src/example.cpp).
 3. Go into the repo directory
 4. Run `g++ -std=c++17 -o example example.cpp isEven.cpp isOdd.cpp && ./example`
 5. Find out if your favourite number is even od odd!
+
+## Changing max supported value <a name="ChangingMaxSupportedValue"></a>
+
+How to change the ceiling of `isEven.cpp`? Easily!
+
+1. Open build.py in your text editor of choice.
+2. At line 8 notice the variable `totalIterations`.
+3. Change it's value to whatever you deem neccesary!
 
 # Description <a name="Description"></a>
