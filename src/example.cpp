@@ -1,4 +1,4 @@
-#include "isEven.h"
+#include "isEven.h" // Do not forget to include header file and make sure isEven.h, isEven.cpp and/or isOdd.cpp are in the same directory as your work file.
 #include <iostream>
 #include <limits>
 
@@ -18,11 +18,11 @@ int main()
         }
 
         // Check if the number is even or odd using the isEven function
-        if (isEven(favoriteNumber))
+        if (isEven(favoriteNumber)) // Call isEven() as you would a regular function
         {
                 std::cout << "Your favorite number " << favoriteNumber << " is even." << std::endl;
         }
-        else if (isOdd(favoriteNumber))
+        else if (isOdd(favoriteNumber)) // Call isOdd() as you would a regular function
         {
                 std::cout << "Your favorite number " << favoriteNumber << " is odd." << std::endl;
         }
