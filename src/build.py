@@ -1,8 +1,8 @@
 import time
 
 # Clear the file before opening it
-with open("isEven.cpp", "w") as clear_file:
-        clear_file.write("")
+with open("isEven.cpp", "w") as clearFile:
+        clearFile.write("")
 
 # Total number of iterations
 totalIterations = 100000000
