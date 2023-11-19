@@ -13,10 +13,11 @@ Have you ever wondered if a number is even or odd? Well those times are over! Wi
 ```
 git https://github.com/Roiqk7/isEven
 ```
-2. Open your terminal
-3. Go into the repo directory
-4. Run `python3 build.py`
-5. Everything is set and done!
+2. Default `isEven.cpp` supports integers from 1 to 600420 (because github doesn't allow for larger files). If thats fine for you, you can stop there. Else if you want more integers, follow this tutorial.
+3. Open your terminal
+4. Go into the repo directory
+5. Run `python3 build.py`
+6. Everything is set and done!
 
 # How to use? <a name="HowToUse"></a>
 
