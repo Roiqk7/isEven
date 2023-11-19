@@ -9,13 +9,13 @@ Have you ever wondered if a number is even or odd? Well those times are over! Wi
 
 # Installation <a name="Installation"></a>
 
-1. Clone this repository (if you haven't done so already)
+1. Clone this repository (if you haven't done so already).
 ```
 git https://github.com/Roiqk7/isEven
 ```
 2. Default `isEven.cpp` supports integers from 1 to 600420 (because github doesn't allow for larger files). If thats fine for you, you can stop there. Else if you want more integers, follow the rest of this tutorial.
-3. Open your terminal
-4. Go into the repo directory
+3. Open your terminal.
+4. Go into the repo directory.
 5. Run `python3 build.py`. That will make `isEven.cpp` support integers all the way to 100 million. To learn how to change this ceiling [click here!](#ChangingMaxSupportedValue)
 6. Everything is set and done!
 
@@ -25,9 +25,9 @@ For example usage refer to [example.cpp](src/example.cpp).
 
 ## How to use example.cpp
 
-1. Follow steps in [Installation](#Installation) (if you haven't done so already)
-2. Open terminal
-3. Go into the repo directory
+1. Follow steps in [Installation](#Installation) (if you haven't done so already).
+2. Open terminal.
+3. Go into the repo directory.
 4. Run `g++ -std=c++17 -o example example.cpp isEven.cpp isOdd.cpp && ./example`
 5. Find out if your favourite number is even od odd!
 
@@ -40,3 +40,5 @@ How to change the ceiling of `isEven.cpp`? Easily!
 3. Change it's value to whatever you deem neccesary!
 
 # Description <a name="Description"></a>
+
+This repository is mainly used to determine if number is even or odd using `isEven()` funcition defined in `isEven.cpp` and `isOdd()` funciton defined in `isOdd.cpp`. These functions then store a LOT of numbers to check whether the wished number is even or odd. Keep in mind that the functions only support numbers defined within it.
