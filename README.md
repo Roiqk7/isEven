@@ -42,3 +42,9 @@ How to change the ceiling of `isEven.cpp`? Easily!
 # Description <a name="Description"></a>
 
 This repository is mainly used to determine if number is even or odd using `isEven()` funcition defined in `isEven.cpp` and `isOdd()` funciton defined in `isOdd.cpp`. These functions then store a LOT of numbers to check whether the wished number is even or odd. Keep in mind that the functions only support numbers defined within it.
+
+# Going over a BILLION...
+
+Well... it's not really recomended. This is exactly how `totalIterations = 1 Billion` is large. Also it takes around **10 minutes** to build. I tried rewriting `build.py` in C++ but it didn't improve the performance at all. 
+
+![Startup](https://github.com/Roiqk7/isEven/blob/main/.github/billionFileSize.png?raw=true)
