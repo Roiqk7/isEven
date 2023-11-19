@@ -12,7 +12,7 @@
 
 ## build.py
 
-Simple python scipt that *MUST* be ran to make the `isEven()` functio work properly.
+Simple python scipt that **MUST** be ran before running `isEven()` to make the function work properly.
 
 ## example.cpp
 
