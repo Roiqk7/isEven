@@ -1,5 +1,7 @@
 # The Ultimate isEven!
 
+Have you ever wondered if a number is even or odd? Well those times are over! With this implementation of isEven() you can once and for all determine if a number is even!
+
 ## Contents
 * [Installation](#Installation)
 * [How to use?](#HowToUse)
