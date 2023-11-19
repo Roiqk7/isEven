@@ -16,7 +16,7 @@ git https://github.com/Roiqk7/isEven
 2. Default `isEven.cpp` supports integers from -600420 to 600420 (because github doesn't allow for larger files). If thats fine for you, you can stop there. Else if you want more integers, follow the rest of this tutorial.
 3. Open your terminal.
 4. Go into the repo directory.
-5. Run `python3 build.py`. That will make `isEven.cpp` support integers all the way to 100 million. To learn how to change this ceiling [click here!](#ChangingMaxSupportedValue)
+5. Run `python3 build.py`. That will make `isEven.cpp` support integers all the way to 100 million. This action takes around 1 minute on MacBook M2. To learn how to change this ceiling [click here!](#ChangingMaxSupportedValue)
 6. Everything is set and done!
 
 # How to use? <a name="HowToUse"></a>
