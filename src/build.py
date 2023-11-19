@@ -5,19 +5,30 @@ with open("isEven.cpp", "w") as clear_file:
         clear_file.write("")
 
 # Total number of iterations
-totalIterations = 100000000
+totalIterations = 10
 
 # Interval for updating the progress bar
-updateInterval = totalIterations // 100  # Update every 1% progress
+updateInterval = totalIterations // 1  # Update every 1% progress
 
 # Record the start time
 startTime = time.time()
 
+commentBlock = """/*
+\tThis file will be overwritten by build.py
+\tGo into the isEven/src directory and run:
+\n\t\tpython3 build.py\n
+\tThat will build the isEven.cpp. Feel free to use it in all your programs!
+*/"""
+
 # Write the new content to the file
 with open("isEven.cpp", "a") as file:
-        file.write("#include \"isEven.h\"\n\n")
-        file.write("bool isEven(const int num)\n")
+        file.write(commentBlock)
+        file.write("\n\n")
+        file.write("#include \"isEven.h\"\n")
+        file.write("#include <cmath>\n\n")
+        file.write("bool isEven(const int number)\n")
         file.write("{\n")
+        file.write("const int num = std::abs(number);\n")
         file.write("\tif (num == 0) return true;\n")  # Zero
         for num in range(1, totalIterations + 1):  # All the other numbers 1 - 100.000.000
                 returnValue = "true" if num % 2 == 0 else "false"
