@@ -8,7 +8,7 @@ with open("isEven.cpp", "w") as clear_file:
 totalIterations = 100000000
 
 # Interval for updating the progress bar
-updateInterval = totalIterations / 1000000  # Update every 1% progress
+updateInterval = totalIterations / 1000  # Update every 0.1% progress
 
 # Record the start time
 startTime = time.time()
