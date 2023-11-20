@@ -6,7 +6,7 @@
 int main()
 {
         int favoriteNumber;
-        evenVector vec;
+        EvenVector vec;
 
         // Ask the user for their favorite number
         std::cout << "Enter your favorite number: ";
