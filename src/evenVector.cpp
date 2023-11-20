@@ -5,18 +5,18 @@
 #include <vector>
 
 // Default constructor
-evenVector::evenVector()
+EvenVector::EvenVector()
 {
         changeMax(0);
 }
 
 // Parameterized constructor to set the maximum size and fill the vector
-evenVector::evenVector(int maxSize) : m_max(maxSize)
+EvenVector::EvenVector(int maxSize) : m_max(maxSize)
 {
         changeMax(maxSize);
 }
 
-bool evenVector::operator[](const int index)
+bool EvenVector::operator[](const int index)
 {
         const int absIndex = std::abs(index);
 
@@ -29,7 +29,7 @@ bool evenVector::operator[](const int index)
 }
 
 // Changes max correctly
-void evenVector::changeMax(const int num)
+void EvenVector::changeMax(const int num)
 {
         m_max = std::abs(num);
         m_isEven.resize(m_max+1);
@@ -37,7 +37,7 @@ void evenVector::changeMax(const int num)
 }
 
 // Function to fill up the vector with initial values
-void evenVector::fillUp()
+void EvenVector::fillUp()
 {
         // Fill the vector with values corresponding to their indices
         for (int i = 0; i <= m_max; i++)
@@ -48,7 +48,7 @@ void evenVector::fillUp()
 
 // Function to check if a number is even
 // We do not use isEven() function as it may not contain the num
-bool evenVector::isEven(int num) const
+bool EvenVector::isEven(int num) const
 {
         if (num == 0) return true;
 
@@ -69,7 +69,7 @@ bool evenVector::isEven(int num) const
 }
 
 // Show us what's going on
-void evenVector::print() const
+void EvenVector::print() const
 {
         std::cout << "Size of evenVec: " << m_max << std::endl;
 
