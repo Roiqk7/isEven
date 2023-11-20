@@ -8,10 +8,10 @@ class EvenVector
 {
 public:
         // Default constructor
-        evenVector();
+        EvenVector();
 
         // Parameterized constructor to set the maximum size and fill the vector
-        evenVector(int maxSize);
+        EvenVector(int maxSize);
 
         bool operator[](const int index);
 
