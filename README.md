@@ -29,7 +29,7 @@ For example usage refer to [example.cpp](src/example.cpp).
 1. Follow the steps in [Installation](#Installation) (if you haven't done so already).
 2. Open your terminal.
 3. Go into the repo directory.
-4. Run `g++ -std=c++17 -o example example.cpp isEven.cpp isOdd.cpp && ./example`
+4. Run `g++ -std=c++17 -o example example.cpp isEven.cpp isOdd.cpp evenVector.cpp && ./example`
 5. Find out if your favourite number is even or odd!
 
 ## Changing max supported value <a name="ChangingMaxSupportedValue"></a>
@@ -44,11 +44,10 @@ How do I change the ceiling of `isEven.cpp`? Easily!
 
 This repository is mainly used to determine if number is even or odd using `isEven()` function defined in `isEven.cpp` and `isOdd()` function defined in `isOdd.cpp`. These functions then store a LOT of numbers to check whether the desired number is even or odd. Keep in mind that the functions only support numbers defined within them.
 
+Also we have `EvenVector` class which adds a simple to use data structure to determine if a number is even or odd. Simply use the overloaded `[]` operator with number you want to know is even or not and a proper boolean value will be returned to you as output.
+
 # Going over a BILLION... <a name="TheTruth"></a>
 
 Well... it's not really recommended. Look at the inage bellow to see exactly how `totalIterations = 1 Billion` is large. Also, it takes around **10 minutes** to build. I tried rewriting `build.py` in C++, but it didn't improve the performance at all.
 
 ![Startup](https://github.com/Roiqk7/isEven/blob/main/.github/billionFileSize.png?raw=true)
-
-# TODO
-* Add EvenVector to READMEs
