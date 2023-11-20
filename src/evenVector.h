@@ -4,7 +4,7 @@
 #include <cmath>
 #include <vector>
 
-class evenVector
+class EvenVector
 {
 public:
         // Default constructor
