@@ -1,6 +1,6 @@
 # The Ultimate isEven()!
 
-Have you ever wondered if a number is even or odd? Well, those times are over! With this implementation of `isEven()` you can once and for all determine if a number is even! And it doesn't end there! I also included `isOdd()` so you can be 100% sure when a number is odd!
+Have you ever wondered if a number is even or odd? Well, those times are over! With this implementation of `isEven()` you can once and for all determine if a number is even! And it doesn't end here! I also included `isOdd()` so you can be 100% sure when a number is odd!
 
 ## Contents
 * [Installation](#Installation)
